@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    background-color: cadetblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+
+header div ul {
+    display: flex;
+}
+
+header div ul li {
+    margin-right: 15px;
+}
+
+
+header div ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-weight: 800;
+}
+
+
+.section-01 {
+    padding: 250px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-image: url(imagens/plant-8338691_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 300px;
+}
+
+
+.section-01 button {
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-color: rgb(78, 78, 104);
+    box-shadow: 5px 5px 5px rgb(44, 44, 46);
+    cursor: pointer;
+}
+
+.section-02 {
+    padding: 250px;
+    background-color: rgb(107, 34, 85);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-02 p {
+    margin: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.section-02 h2 {
+    margin: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.section-03 {
+    background-image: url(imagens/landscape-8259156_1280.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 300px;
+}
+
+
+footer {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer div ul {
+    display: flex;
+    
+}
+
+footer div ul li {
+    margin-right: 15px;
+}
+
+footer div ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
