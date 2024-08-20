@@ -34,6 +34,13 @@ header div ul li a {
     font-weight: 800;
 }
 
+header div ul li a:hover{
+    color: brown;
+    transition: 0.5s;
+}
+
+
+
 
 .section-01 {
     padding: 250px;
@@ -51,65 +58,157 @@ header div ul li a {
 
 /* Estilização do Botão (SAIBA MAIS) - Aqui fazemos o caminho exato de onde se encontra o Botão */
 .section-01 button {
-    width: 150px; /*Largura do Botão*/
-    height: 45px; /*Altura do Botão*/
-    border-radius: 10px; /*Arredondamento da borda*/
-    background-color: rgba(255, 255, 255, 0.438); /*Cor de Fundo do Botão*/
+    width: 150px;
+    /*Largura do Botão*/
+    height: 45px;
+    /*Altura do Botão*/
+    border-radius: 10px;
+    /*Arredondamento da borda*/
+    background-color: rgba(255, 255, 255, 0.438);
+    /*Cor de Fundo do Botão*/
 }
+
+.section-01 button:hover {
+    background-color: rgba(90, 88, 88, 0.135);
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+
+
+
 
 
 /* Chamamos nossa segunda Sessão para Estilização */
 .section-02 {
-    padding: 250px; /*Preenchimento/Tamanho da sessão*/
-    background-color: rgb(107, 34, 85); /*Cor de fundo da sessão*/
-    display: flex;/*Tornando a sessão Flex e deixando os itens lado a lado*/
-    justify-content: space-evenly;/*Justificação do Conteúdo - Usando o Space-evenly como parâmetro*/
-    align-items: center; /*Alinhamento dos itens na vertical - trazendo para o centro*/
+    padding: 250px;
+    /*Preenchimento/Tamanho da sessão*/
+    background-color: rgb(107, 34, 85);
+    /*Cor de fundo da sessão*/
+    display: flex;
+    /*Tornando a sessão Flex e deixando os itens lado a lado*/
+    justify-content: space-evenly;
+    /*Justificação do Conteúdo - Usando o Space-evenly como parâmetro*/
+    align-items: center;
+    /*Alinhamento dos itens na vertical - trazendo para o centro*/
 }
+
 /* Aqui estamos chamando nosso parágrafo para estilização */
 .section-02 p {
-    margin: 30px; /*Aqui colocamos uma espaçamento nas margens de todos os lados*/
-    color: white;/*Cor da letra*/
-    font-size: 20px;/*Tamanho da letra*/
-    font-weight: 300;/*Peso da letra*/
+    margin: 30px;
+    /*Aqui colocamos uma espaçamento nas margens de todos os lados*/
+    color: white;
+    /*Cor da letra*/
+    font-size: 20px;
+    /*Tamanho da letra*/
+    font-weight: 300;
+    /*Peso da letra*/
 }
+
 /* Aqui estamos estilizando nosso Subtítulo (H2) */
 .section-02 h2 {
-    margin: 30px;/*Aqui colocamos uma espaçamento nas margens de todos os lados*/
-    color: white;/*Cor da letra*/
-    font-size: 40px;/*Tamanho da Letra*/
-    font-weight: 300;/*Peso da letra*/
+    margin: 30px;
+    /*Aqui colocamos uma espaçamento nas margens de todos os lados*/
+    color: white;
+    /*Cor da letra*/
+    font-size: 40px;
+    /*Tamanho da Letra*/
+    font-weight: 300;
+    /*Peso da letra*/
 }
 
 /* Aqui chamamos nossa terceira e última sessão para estilização */
 .section-03 {
-    background-image: url(imagens/landscape-8259156_1280.jpg); /*Habilitamos uma imagem de fundo para a sessão*/
-    background-attachment: fixed;/*Deixamos a imagem "Parada" na sessão, ou seja FIXADA*/
-    background-repeat: no-repeat;/*Repetição da imagem desabilitada*/
-    background-size: cover; /*Preenchimento total da imagem na sessão / espaço disponível*/
-    background-position: center; /*Posição em que a imagem será apresentada*/
-    padding: 300px; /*Tamanho/Preenchimento da sessão*/
+    background-image: url(imagens/landscape-8259156_1280.jpg);
+    /*Habilitamos uma imagem de fundo para a sessão*/
+    background-attachment: fixed;
+    /*Deixamos a imagem "Parada" na sessão, ou seja FIXADA*/
+    background-repeat: no-repeat;
+    /*Repetição da imagem desabilitada*/
+    background-size: cover;
+    /*Preenchimento total da imagem na sessão / espaço disponível*/
+    background-position: center;
+    /*Posição em que a imagem será apresentada*/
+    padding: 300px;
+    /*Tamanho/Preenchimento da sessão*/
 }
 
 /* Aqui habilitamos o Rodapé para estilização */
 footer {
-    background-color: brown; /*Cor de Fundo do Rodapé*/
-    display: flex; /*Tornando a sessão Flex e deixando os itens lado a lado*/
-    justify-content: center; /*Justificativa do Conteúdo ao centro*/
-    padding: 20px;/*Tamanho/Preenchimento do rodapé*/
+    background-color: brown;
+    /*Cor de Fundo do Rodapé*/
+    display: flex;
+    /*Tornando a sessão Flex e deixando os itens lado a lado*/
+    justify-content: center;
+    /*Justificativa do Conteúdo ao centro*/
+    padding: 20px;
+    /*Tamanho/Preenchimento do rodapé*/
 }
+
 /* Trazendo nossa Lista não ordenada para estilização */
 footer div ul {
-    display: flex; /*Aqui tornamos nossa Lista um elemento flex, com isso as listas ficaram lado a lado */
+    display: flex;
+    /*Aqui tornamos nossa Lista um elemento flex, com isso as listas ficaram lado a lado */
 }
+
 /* Aqui estamos trabalhando diretamento dentro das Listas */
-footer div ul li { 
-    margin-right: 15px; /*Atribuimos um espaçamento entre as listas, para que tenham uma melhor visualização*/
+footer div ul li {
+    margin-right: 15px;
+    /*Atribuimos um espaçamento entre as listas, para que tenham uma melhor visualização*/
 }
+
 /* Aqui estamos trabalhando dentro da âncora */
 footer div ul li a {
-    color: white; /*Cor da letra*/
-    text-decoration: none; /*Decoração do Texto desabilitada - Retirando o sublinhado*/
-    font-weight: 300;/*Peso da Fonte*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;/*Tipo/Família de Fonte*/
+    color: white;
+    /*Cor da letra*/
+    text-decoration: none;
+    /*Decoração do Texto desabilitada - Retirando o sublinhado*/
+    font-weight: 300;
+    /*Peso da Fonte*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*Tipo/Família de Fonte*/
+}
+
+footer div ul li a:hover{
+    color: gold;
+    transition: 0.8s;
+}
+
+
+header i { /*Estilizando ícone*/
+    color: white; /*Cores do ícone*/
+    font-size: 40px; /*Tamanho do Ícone*/
+    background-color: grey; /*Cor de fundo do elemento*/
+    padding: 15px; /*Respiro/Preenchimento da cor de fundo*/
+    border-radius: 10px; /*Arredondamento da caixa*/
+}
+header i:hover { /*Aplicando o efeito ao passar o Mouse*/
+     background-color: purple; /*Cor de fundo alterada*/
+     transition: 0.7s; /*Transição do elemento*/
+}
+
+
+/* ESTILIZAÇÃO TELA 2  */
+
+
+.section-tela2 {
+    background-image: url(imagens/gym-526995_1280.jpg);
+    padding: 250px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-tela2 p {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    background-color: rgba(128, 128, 128, 0.23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section-tela2 span {
+    color: yellow;
+    font-weight: bold;
 }
