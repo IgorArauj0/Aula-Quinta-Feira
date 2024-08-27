@@ -341,6 +341,43 @@ header i:hover {
 }
 
 .div-line img {
-    width: 80px;
-    
+    width: 100px;   
 }
+
+.div-line .line {
+    width: 150px; /*Largura da linha*/
+    height: 1.5px; /*Altura da Linha*/
+    background-color: white; /*Cor de fundo da Linha*/
+    margin-top: 12px; /*Distância entre a linha e ícone*/
+}
+
+
+.div-icons a {
+    text-decoration: none; /*Aqui estamos removendo o estilo padrão da âncora*/
+    color: white; /*Cor da Âncora*/
+}
+
+.div-icons a i { /*Acessando o ícone*/
+    background-color: #5e3929; /*Atribuindo uma cor de Fundo aos nossos ícones*/
+    border-radius: 10px;
+    padding: 9px; /*Aplicando um respiro (padding) dentro dos ícones*/
+    font-size: 45px; /*Tamanho dos ícones*/
+
+}
+
+.div-icons a i:hover {
+    background-color: #5e39297a; /*Atribuindo uma cor de Fundo aos nossos ícones*/
+    transition: 0.6s;
+}
+
+
+.div-icons h2 { /*Estilizando o Título do Rodapé*/
+    color: white; /*Cor da letra*/
+    font-size: 30px; /*Tamanho da letra*/
+    margin-bottom: 20px; /*Margin inferior em relação o texto*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
